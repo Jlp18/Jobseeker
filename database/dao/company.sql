@@ -1,0 +1,14 @@
+#sql("searchCompanyInfo")
+SELECT 
+    name,
+    address,
+    tel,
+    domain,
+    type,
+    property,
+    scale 
+FROM
+    company
+WHERE
+    name=?;
+#end
