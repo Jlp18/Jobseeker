@@ -1,0 +1,92 @@
+body{
+	background-color: #fff !important;
+}
+
+img{
+	display: block;
+}
+
+.mui-content{
+	background-color: #fff;
+}
+
+.tab{
+	/*解决子控件浮动引起的父空间高度坍塌*/
+	overflow: hidden;
+	background-color: #fff;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 45px;
+	margin-bottom: 30px;
+	/*弹性布局*/
+	display: flex;
+}
+
+.tab dt{
+	float: left;
+	flex-grow: 1;
+	text-align: center;
+	border-bottom: solid 2px #fff;
+	padding-bottom: 10px;
+}
+
+.tab .active{
+	border-bottom: solid 2px #0099ff;
+}
+ .tab dd{
+ 	width: 0;
+ 	height: 20px;
+ 	border-left: solid 1px #999;
+ 	margin-left: 0;
+ }
+
+
+p{
+	margin-left:60px ;
+	margin-right: 60px;
+	/*父控件设置相对位移，子控件的绝对定位以父空间为参考*/
+	position: relative;
+	text-align: center;
+}
+p .iconfont{
+	/*绝对定位*/
+	position: absolute;
+	left: 0;
+	top: 7px;
+	font-size: 30px;
+	color: #999;
+}
+
+.input{
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: solid 1px #999;
+	padding-left: 35px !important;
+	font-size: 14px;
+	margin-bottom: 5px !important;
+}
+ .btn{
+ 	height: 48px !important;
+ 	background-color: #0099FF !important;
+ 	color: #fff !important;
+ 	border: none;
+ 	width:100%;
+ 	font-size: 14px;
+ 	margin-top: 20px;
+ }
+
+.link{
+	font-size: 14px;
+	color: #999;
+	display: block;
+	margin-top: 25px !important;
+}
+
+.login-pannel{
+	display: none;
+}
+
+.registor-pannel{
+	display: none;
+}

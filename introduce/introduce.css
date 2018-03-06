@@ -1,0 +1,104 @@
+
+body{
+	background-color: #fff;
+}
+
+
+
+header i{
+	color:#fff;
+	/*font-size: 30px !important;*/
+}
+
+
+.mui-content{
+	background-color: #fff;
+}
+
+
+.introduce{
+	overflow: hidden;
+	
+}
+
+
+.introduce h2{
+	font-size: 22px !important;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.introduce .companyinfo{
+	
+	font-size: 16px;
+	color: #000000;
+	margin-right: 0;
+}
+
+.introduce .companyinfo dl{
+	display: flex;
+}
+
+.introduce .companyinfo dl dt{
+	
+	flex-grow: 1;
+
+}
+.introduce .companyinfo dl dt .character{
+	background-color: #797979;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+	border-radius: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 3px;
+	margin-left: 23px;
+	margin-right: 0;
+}
+.introduce .companyinfo .info{
+	font-family: "微软雅黑";
+	color: #000000;
+	font-size: 13px;
+	margin-right:30px;
+	word-wrap: break-word;
+}
+
+.introduce .companyinfo .special_info{
+	font-family: "微软雅黑";
+	color: #000000;
+	font-size: 13px;
+	margin-right:30px;
+	width: 100%;
+	text-align: left !importa;
+	float: left;
+}
+
+.introduce .picture{
+	width: 320px;
+	height: 240px;
+	margin-bottom: 30px;
+	
+}
+
+.introduce .detail_info{
+	text-indent: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	letter-spacing: 2px;
+	position: relative;
+	font-size: 15px;
+}
+
+.introduce .detail_info p{
+	color: #000000;
+}
+
+.introduce .picture img{
+	margin-left: 22px;
+	
+	display: block;
+}

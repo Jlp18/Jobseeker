@@ -1,0 +1,19 @@
+header{
+	background-color: #0099FF !important;
+	box-shadow: none !important;
+	border-bottom: none !important;
+}
+
+header h1{
+	color: #fff !important;
+}
+
+*{
+	font-family: "微软雅黑";
+	/*内填充不膨胀尺寸*/
+	box-sizing: border-box;
+	/*文字颜色*/
+	color: #333;
+	/*没有下划线*/
+	text-decoration: none;
+}

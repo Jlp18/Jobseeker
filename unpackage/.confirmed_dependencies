@@ -1,0 +1,46 @@
+{
+	"login.html": {
+		"refer": [
+			"index.html",
+			"login2.html"
+		]
+	},
+	"login2.html": {
+		"refer": [
+			"index.html",
+			"login.html"
+		]
+	},
+	"index.html": {
+		"refer": [
+			"resume/resume.html",
+			"introduce/introduce.html",
+			"recruit/recruit.html",
+			"position/position.html"
+		]
+	},
+	"resume/resume.html": {
+		"refer": [
+			"index.html"
+		],
+		"resources": [
+			"js/eleditor/layout/base.css",
+			"resume/resume.css"
+		]
+	},
+	"introduce/introduce.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"position/position.html": {
+		"refer": [
+			"introduce/introduce.html"
+		]
+	},
+	"recruit/recruit.html": {
+		"refer": [
+			"position/position.html"
+		]
+	}
+}

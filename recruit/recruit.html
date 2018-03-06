@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="recruit.css"/>
+		<link rel="stylesheet" href="../index.css" />
+		
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+	    <script src="recruit.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			mui.plusReady(function(){
+      		plus.navigator.setStatusBarBackground("#007AFF"); //OS顶部状态栏背景颜色
+      		plus.screen.lockOrientation("portrait-primary");  //禁止横屏切换
+      	});
+		</script>
+		
+	</head>
+
+	<body >
+        <header class="mui-bar mui-bar-nav" >
+        	<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">企业招聘</h1>
+		</header>
+		<div class="mui-content">
+		<div class="search">
+			<p>
+				<i class="iconfont icon-search" ></i>
+			    <input  type="text" name="search" id="search" placeholder="工作  / 公司地点  / 名称" />
+			</p>
+		</div>
+		<div class="sort">
+			<table class="i" border="0" cellspacing="" cellpadding="">
+				<tr><td>智能排序</td>
+					<th></th>
+					<td>附近</td>
+					<th></th>
+					<td>月薪</td>
+					<th></th>
+					<td>职位</td>
+					<th></th>
+					<td>口碑</td>
+				</tr>
+			</table>
+		</div>
+		
+		</div>
+		<div class="recruit">
+			<!--从数据库中读取招聘信息-->
+			<ul>
+				<li>
+					<!--<a href="">
+						<div class="letter">前</div>
+						<div class="info">
+							<h4>Web前端工程师</h4>
+							<div>
+								<span class="company">大连华宇自动化科技有限公司</span>
+								<span class="salary">4~5K</span>
+							</div>
+							<div>
+								<i class="iconfont icon-coordinates_fill"></i>
+								<span class="city">大连</span>
+								<i class="iconfont icon-people_fill"></i>
+								<span class="education">本科</span>
+								<i class="iconfont icon-transaction_fill"></i>
+								<span class="welfare">五险一金</span>
+							</div>
+						</div>
+					</a>-->
+				</li>
+			</ul>
+		</div>
+		<p style="text-align: center;font-size: 12px;">
+			已加载全部
+		</p>
+
+		
+	</body>
+
+</html>
